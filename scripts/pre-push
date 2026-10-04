@@ -1,0 +1,4 @@
+#!/bin/sh
+set -e
+printf '%s\n' 'Running backend tests before push...'
+pytest -q
